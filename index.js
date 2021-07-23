@@ -31,7 +31,7 @@ async function updateReadme() {
   let readme = `
 # 我的 2021 秋招 
 
-汇总自己 2021 秋招经历，整理笔试题以及面经，使用 GitHub Issues 进行进度管理。
+汇总自己 2021 秋招经历，整理笔试题以及面经，使用 [Issues](https://github.com/Mayandev/interview-2021/issues) 进行进度管理。
 `;
 
   for (let i = 0; i < labels.length; i++) {
