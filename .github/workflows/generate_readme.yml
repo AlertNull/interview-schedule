@@ -25,10 +25,10 @@ jobs:
         node index.js '${{ secrets.ACCESS_TOKEN }}'
     - name: Commit files
       run: |
-        git config --local user.email "actions@github.com"
-        git config --local user.name "GitHub Action"
+        git config --local user.email "phillzou@gmail.com"
+        git config --local user.name "mayandev"
         git add .
-        git commit -m "update README after submit issues"
+        git commit -m "docs: auto update README after submit issues"
     - name: Push changes
       uses: ad-m/github-push-action@master
       with:
