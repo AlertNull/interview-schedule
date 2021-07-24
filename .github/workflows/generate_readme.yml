@@ -3,7 +3,7 @@ name: Generate Job Information README
 on:
   workflow_dispatch:
   issues:
-    types: [opened, edited]
+    types: [opened]
   push:
     branches:
       - main
