@@ -1,7 +1,7 @@
 
 # 我的 2021 秋招 
 
-汇总自己 2021 秋招经历，整理笔试题以及面经，使用 [Issues](https://github.com/Mayandev/interview-2021/issues) 进行进度管理。
+汇总自己 2021 秋招经历，整理笔试题以及面经，使用 [Issues](https://github.com/mayandev/interview-2021/issues) 进行进度管理。
 ## 已投递
 - [Shopee](https://github.com/Mayandev/interview-2021/issues/7) -- 2021-07-23
 - [猿辅导](https://github.com/Mayandev/interview-2021/issues/5) -- 2021-07-23
