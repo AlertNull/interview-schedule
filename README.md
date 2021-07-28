@@ -27,4 +27,4 @@
 - [百度](https://github.com/Mayandev/interview-2021/issues/10) -- 2021-07-24
 - [京东](https://github.com/Mayandev/interview-2021/issues/2) -- 2021-07-28
 ## 未通过
-- [Shopee](https://github.com/Mayandev/interview-2021/issues/7) -- 2021-07-26
+- [【未通过简历筛选】Shopee](https://github.com/Mayandev/interview-2021/issues/7) -- 2021-07-28
