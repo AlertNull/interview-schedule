@@ -9,6 +9,7 @@ on:
       - main
     paths:
       - index.js
+      - calendar.mmd
 
 jobs:
   build:
