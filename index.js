@@ -6,6 +6,14 @@ const API = `https://api.github.com/repos/${config.username}/${config.repo}`;
 const RepoUrl = `https://github.com/${config.username}/${config.repo}`;
 const ANCHOR_NUMBER = 5;
 const TOKEN = process.argv.slice(2)[0];
+
+function generateChartURL() {
+  const data = fs.readFileSync('./calendar.mmd', 'utf8')
+  const base64 = Buffer.from(data).toString('base64')
+  const url = `https://mermaid.ink/svg/${base64}`;
+  return url;
+}
+
 async function getIssues(params) {
   const { data } = await axios.get(`${API}/issues?access_token=${TOKEN}`, {
     params,
@@ -29,11 +37,16 @@ function isEmpty(arr) {
 }
 
 async function updateReadme() {
+  const chartURL = generateChartURL();
   const labels = await getLabels();
   let readme = `
 # 我的 2021 秋招 
 
 汇总自己 2021 秋招经历，整理笔试题以及面经，使用 [Issues](${RepoUrl}/issues) 进行进度管理。
+
+## 面试日程
+![](${chartURL})
+
 `;
 
   for (let i = 0; i < labels.length; i++) {
