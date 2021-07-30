@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/HUSTLab/job#readme",
   "dependencies": {
-    "axios": "^0.21.1"
+    "axios": "^0.21.1",
+    "js-base64": "^3.6.1"
   }
 }

@@ -1,6 +1,7 @@
 #!/usr/bin/env node
 const axios = require('axios');
 const fs = require('fs');
+const { toBase64 } = require('js-base64');
 const config = require('./config.json');
 const API = `https://api.github.com/repos/${config.username}/${config.repo}`;
 const RepoUrl = `https://github.com/${config.username}/${config.repo}`;
@@ -9,7 +10,7 @@ const TOKEN = process.argv.slice(2)[0];
 
 function generateChartURL() {
   const data = fs.readFileSync('./calendar.mmd', 'utf8')
-  const base64 = Buffer.from(data).toString('base64')
+  const base64 = toBase64(data, true);
   const url = `https://mermaid.ink/svg/${base64}`;
   return url;
 }
