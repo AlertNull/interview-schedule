@@ -1,7 +1,10 @@
 const { google } = require('googleapis');
 const markdownTable = require('markdown-table');
 const fs = require('fs');
-const { formatDate } = require('./utils');
+const dayjs = require('dayjs');
+const utc = require('dayjs/plugin/utc');
+dayjs.extend(utc)
+
 const client_id = '515075434394-e4dmddid8tq2u00k9ldqgkohs7ourb8v.apps.googleusercontent.com';
 const [client_secret, access_token, refresh_token] = process.argv.slice(2);
 const redirect_uri = 'https://mayandev.top';
@@ -26,9 +29,8 @@ async function listEvents(auth) {
   });
   const events = data.items || [];
   const table = events.map((event, i) => {
-    console.log(event.start.dateTime);
-    const start = new Date(event.start.dateTime || event.start.date);
-    const time = start.toLocaleString();
+    const start = dayjs.utc(event.start.dateTime || event.start.date);
+    const time = start.local().format('MM/DD hh:mm');
     console.log(time);
     const { summary, htmlLink } = event;
     return [time, `[${summary}](${htmlLink})`];
