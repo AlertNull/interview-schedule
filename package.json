@@ -22,7 +22,6 @@
   "homepage": "https://github.com/Mayandev/interview-2021#readme",
   "dependencies": {
     "axios": "^0.21.1",
-    "dayjs": "^1.10.6",
     "googleapis": "^83.0.0",
     "js-base64": "^3.6.1",
     "markdown-table": "^2.0.0"
