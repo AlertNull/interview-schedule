@@ -29,11 +29,10 @@ async function listEvents(auth) {
   });
   const events = data.items || [];
   const table = events.map((event, i) => {
-    const start = dayjs.utc(event.start.dateTime || event.start.date);
-    const time = start.local().format('MM/DD hh:mm');
-    console.log(time);
+    const start = dayjs(event.start.dateTime || event.start.date).utc(true).format('MM/DD hh:mm');;
+    console.log(start);
     const { summary, htmlLink } = event;
-    return [time, `[${summary}](${htmlLink})`];
+    return [start, `[${summary}](${htmlLink})`];
   });
   table.unshift(['时间', '日程']);
   fs.writeFileSync('./schedule.md', markdownTable(table), 'utf8');
