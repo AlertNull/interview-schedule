@@ -28,6 +28,12 @@ async function listEvents(auth) {
     orderBy: 'startTime',
   });
   const events = data.items || [];
+  console.log(dayjs('2021-08-02T11:00:00+08:00').utc().local().format('hh:mm'));
+  console.log(dayjs().format());
+  console.log(dayjs().utc().format());
+  console.log(dayjs().utc().local().format());
+
+
   const table = events.map((event, i) => {
     console.log(event.start.dateTime || event.start.date);
     const start = dayjs(event.start.dateTime || event.start.date).utc().local().format('MM/DD hh:mm');;
