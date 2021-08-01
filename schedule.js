@@ -2,13 +2,12 @@ const { google } = require('googleapis');
 const dayjs = require('dayjs');
 const markdownTable = require('markdown-table');
 const fs = require('fs');
+
 const client_id = '515075434394-e4dmddid8tq2u00k9ldqgkohs7ourb8v.apps.googleusercontent.com';
 const [client_secret, access_token, refresh_token] = process.argv.slice(2);
-
 const redirect_uri = 'https://mayandev.top';
 const oAuth2Client = new google.auth.OAuth2(client_id, client_secret, redirect_uri);
-process.env.HTTPS_PROXY = 'http://127.0.0.1:7890';
-google.options({ proxy: 'http://127.0.0.1:7890' });
+
 oAuth2Client.setCredentials({
   access_token,
   refresh_token,
