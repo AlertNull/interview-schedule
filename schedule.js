@@ -26,6 +26,7 @@ async function listEvents(auth) {
   });
   const events = data.items || [];
   const table = events.map((event, i) => {
+    console.log(event.start.dateTime);
     const start = new Date(event.start.dateTime || event.start.date);
     const time = start.toLocaleString();
     console.log(time);
