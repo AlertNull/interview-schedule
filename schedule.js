@@ -19,7 +19,7 @@ async function listEvents(auth) {
   const calendar = google.calendar({ version: 'v3', auth });
   const { data } = await calendar.events.list({
     calendarId: 'c6keoilafv99p19vl7faidu8mk@group.calendar.google.com',
-    timeMin: new Date().toUTCString(),
+    timeMin: new Date().toISOString(),
     maxResults: 10,
     singleEvents: true,
     orderBy: 'startTime',
@@ -27,7 +27,6 @@ async function listEvents(auth) {
   const events = data.items || [];
   const table = events.map((event, i) => {
     const start = new Date(event.start.dateTime || event.start.date);
-    console.log(start, 'start time');
     const time = formatDate(start);
     const { summary, htmlLink } = event;
     return [time, `[${summary}](${htmlLink})`];
