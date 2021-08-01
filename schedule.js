@@ -28,7 +28,7 @@ async function listEvents(auth) {
   const table = events.map((event, i) => {
     console.log(event.start.dateTime);
     const start = new Date(event.start.dateTime || event.start.date);
-    const time = start.toLocaleString();
+    const time = start.toUTCString();
     console.log(time);
     const { summary, htmlLink } = event;
     return [time, `[${summary}](${htmlLink})`];
