@@ -12,6 +12,7 @@
 | 08/03 15:00 | [美团 1 面](https://www.google.com/calendar/event?eid=NWNjYWZsa2didDY0YWZyZDhobTd1b2ZqYTQgYzZrZW9pbGFmdjk5cDE5dmw3ZmFpZHU4bWtAZw) |
 
 ## 已投递
+- [美团](https://github.com/Mayandev/interview-2021/issues/15) -- 2021-08-01
 - [招商银行](https://github.com/Mayandev/interview-2021/issues/12) -- 2021-07-24
 - [网易云音乐](https://github.com/Mayandev/interview-2021/issues/4) -- 2021-07-29
 ## 待笔试
