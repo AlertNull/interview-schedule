@@ -29,6 +29,7 @@ async function listEvents(auth) {
   });
   const events = data.items || [];
   const table = events.map((event, i) => {
+    console.log(event.start.dateTime || event.start.date);
     const start = dayjs(event.start.dateTime || event.start.date).utc(true).format('MM/DD hh:mm');;
     console.log(start);
     const { summary, htmlLink } = event;
