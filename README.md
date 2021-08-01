@@ -4,7 +4,10 @@
 汇总自己 2021 秋招经历，整理笔试题以及面经，使用 [Issues](https://github.com/mayandev/interview-2021/issues) 进行进度管理。
 
 ## 面试日程
-![](https://mermaid.ink/svg/Z2FudHQKICAgIGF4aXNGb3JtYXQgICVtLSVkCiAgICB0aXRsZSDpnaLor5Xml6XnqIsKICAgIGRhdGVGb3JtYXQgIFlZWVktTU0tREQtSAogICAgc2VjdGlvbiBTSEVJTgogICAg56yU6K-V77yI5pma5LiKIDgg54K577yJOmRvbmUsIDIwMjEtMDctMjgtMjAsIDFoCiAgICBzZWN0aW9uIOeZvuW6pgogICAg5LqM6Z2i77yI5LiL5Y2IIDMg54K577yJOmRvbmUsIDIwMjEtMDctMjktMTUsIDFoCiAgICBzZWN0aW9uIOS6rOS4nAogICAg5LqM6Z2i77yI5LiL5Y2IIDMg54K577yJOiAyMDIxLTA3LTMwLTE1LCAxaAogICAgc2VjdGlvbiDnjL_ovoXlr7wKICAgIOeslOivle-8iOS4i-WNiCA3IOeCue-8iTogMjAyMS0wNy0zMS0xOSwgMWgKICAgIHNlY3Rpb24g576O5ZuiCiAgICDkuIDpnaLvvIjkuIvljYggNSDngrnvvIk6MjAyMS0wOC0wMy0xNSwgMWg)
+
+| 时间          | 日程                                                                                                                           |
+| ----------- | ---------------------------------------------------------------------------------------------------------------------------- |
+| 08/02 11:00 | [百度三面](https://www.google.com/calendar/event?eid=Nm1yMjhlZTVrOGI2cDIzbXVmbmYyMzZtbGMgYzZrZW9pbGFmdjk5cDE5dmw3ZmFpZHU4bWtAZw) |
 
 ## 已投递
 - [招商银行](https://github.com/Mayandev/interview-2021/issues/12) -- 2021-07-24

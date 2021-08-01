@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/HUSTLab/job.git"
+    "url": "git+https://github.com/mayandev/interview-2021.git"
   },
   "keywords": [
     "job",
@@ -17,11 +17,14 @@
   "author": "phillzou <phillzou@gmail.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/HUSTLab/job/issues"
+    "url": "https://github.com/Mayandev/interview-2021/issues"
   },
-  "homepage": "https://github.com/HUSTLab/job#readme",
+  "homepage": "https://github.com/Mayandev/interview-2021#readme",
   "dependencies": {
     "axios": "^0.21.1",
-    "js-base64": "^3.6.1"
+    "dayjs": "^1.10.6",
+    "googleapis": "^83.0.0",
+    "js-base64": "^3.6.1",
+    "markdown-table": "^2.0.0"
   }
 }

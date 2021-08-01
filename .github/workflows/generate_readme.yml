@@ -2,6 +2,8 @@ name: Generate Job Information README
 
 on:
   workflow_dispatch:
+  schedule:
+    - cron: "0 0 * * *"
   issues:
     types: [opened]
   push:
@@ -23,6 +25,7 @@ jobs:
     - name: update readme
       run: |
         npm install
+        node schedule.js '${{secrets.GCAL_CLIENT_SECRET}}' '${{secrets.GCAL_ACCESS_TOKEN}}'  '${{secrets.GCAL_REFRESH_TOKEN}}'
         node index.js '${{ secrets.ACCESS_TOKEN }}'
     - name: Commit files
       run: |

@@ -1,19 +1,11 @@
 #!/usr/bin/env node
 const axios = require('axios');
 const fs = require('fs');
-const { toBase64 } = require('js-base64');
 const config = require('./config.json');
 const API = `https://api.github.com/repos/${config.username}/${config.repo}`;
 const RepoUrl = `https://github.com/${config.username}/${config.repo}`;
 const ANCHOR_NUMBER = 5;
 const TOKEN = process.argv.slice(2)[0];
-
-function generateChartURL() {
-  const data = fs.readFileSync('./calendar.mmd', 'utf8')
-  const base64 = toBase64(data, true);
-  const url = `https://mermaid.ink/svg/${base64}`;
-  return url;
-}
 
 async function getIssues(params) {
   const { data } = await axios.get(`${API}/issues?access_token=${TOKEN}`, {
@@ -38,7 +30,8 @@ function isEmpty(arr) {
 }
 
 async function updateReadme() {
-  const chartURL = generateChartURL();
+  const schedule = fs.readFileSync('./schedule.md');
+  console.log(schedule);
   const labels = await getLabels();
   let readme = `
 # 我的 2021 秋招 
@@ -46,7 +39,8 @@ async function updateReadme() {
 汇总自己 2021 秋招经历，整理笔试题以及面经，使用 [Issues](${RepoUrl}/issues) 进行进度管理。
 
 ## 面试日程
-![](${chartURL})
+
+${schedule}
 
 `;
 
