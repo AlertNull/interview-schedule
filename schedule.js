@@ -27,10 +27,8 @@ async function listEvents(auth) {
   const events = data.items || [];
   const table = events.map((event, i) => {
     const start = new Date(event.start.dateTime || event.start.date);
-    console.log(event.start.dateTime);
-    const time = formatDate(start);
+    const time = start.toLocaleDateString();
     console.log(time);
-
     const { summary, htmlLink } = event;
     return [time, `[${summary}](${htmlLink})`];
   });
