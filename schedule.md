@@ -1,3 +1,2 @@
-| 时间          | 日程                                                                                                                             |
-| ----------- | ------------------------------------------------------------------------------------------------------------------------------ |
-| 08/03 15:00 | [美团 1 面](https://www.google.com/calendar/event?eid=NWNjYWZsa2didDY0YWZyZDhobTd1b2ZqYTQgYzZrZW9pbGFmdjk5cDE5dmw3ZmFpZHU4bWtAZw) |
+| 时间 | 日程 |
+| -- | -- |
