@@ -1,2 +1,3 @@
-| 时间 | 日程 |
-| -- | -- |
+| 时间          | 日程                                                                                                                           |
+| ----------- | ---------------------------------------------------------------------------------------------------------------------------- |
+| 08/04 14:00 | [小米一面](https://www.google.com/calendar/event?eid=NWk2Y2FrNmdrcnZyOHE0aTc4bGg2bGk2cHUgYzZrZW9pbGFmdjk5cDE5dmw3ZmFpZHU4bWtAZw) |
