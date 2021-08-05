@@ -5,8 +5,10 @@
 
 ## 面试日程
 
-| 时间 | 日程 |
-| -- | -- |
+| 时间          | 日程                                                                                                                            |
+| ----------- | ----------------------------------------------------------------------------------------------------------------------------- |
+| 08/08 16:00 | [京东hr面](https://www.google.com/calendar/event?eid=OXN1ZDQ2NTgxajNpbDc2b2hybHExYmFtOG8gYzZrZW9pbGFmdjk5cDE5dmw3ZmFpZHU4bWtAZw) |
+| 08/10 15:00 | [知乎面试](https://www.google.com/calendar/event?eid=NGg3bTM5ajM2NGQ0NW02NDBhOGdicmUzdTQgYzZrZW9pbGFmdjk5cDE5dmw3ZmFpZHU4bWtAZw)  |
 
 ## 已投递
 - [知乎](https://github.com/Mayandev/interview-2021/issues/18) -- 2021-08-05
@@ -26,7 +28,7 @@
 </details>
 
 ## 面试中
-- [小米](https://github.com/Mayandev/interview-2021/issues/13) -- 2021-08-04
+- [小米](https://github.com/Mayandev/interview-2021/issues/13) -- 2021-08-05
 - [百度](https://github.com/Mayandev/interview-2021/issues/10) -- 2021-08-04
 - [京东](https://github.com/Mayandev/interview-2021/issues/2) -- 2021-08-04
 ## 流程终止
