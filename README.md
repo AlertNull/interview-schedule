@@ -26,11 +26,11 @@
 </details>
 
 ## 面试中
-- [兴业银行](https://github.com/Mayandev/interview-2021/issues/14) -- 2021-07-26
 - [小米](https://github.com/Mayandev/interview-2021/issues/13) -- 2021-08-04
 - [百度](https://github.com/Mayandev/interview-2021/issues/10) -- 2021-08-04
 - [京东](https://github.com/Mayandev/interview-2021/issues/2) -- 2021-08-04
 ## 流程终止
 - [【放弃面试】美团](https://github.com/Mayandev/interview-2021/issues/15) -- 2021-08-04
+- [【放弃面试】兴业银行](https://github.com/Mayandev/interview-2021/issues/14) -- 2021-08-05
 - [【未通过笔试】拼多多](https://github.com/Mayandev/interview-2021/issues/9) -- 2021-08-04
 - [【未通过简历筛选】Shopee](https://github.com/Mayandev/interview-2021/issues/7) -- 2021-07-28
