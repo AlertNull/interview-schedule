@@ -5,10 +5,8 @@
 
 ## 面试日程
 
-| 时间          | 日程                                                                                                                              |
-| ----------- | ------------------------------------------------------------------------------------------------------------------------------- |
-| 08/04 14:00 | [小米一面](https://www.google.com/calendar/event?eid=NWk2Y2FrNmdrcnZyOHE0aTc4bGg2bGk2cHUgYzZrZW9pbGFmdjk5cDE5dmw3ZmFpZHU4bWtAZw)    |
-| 08/04 15:00 | [京东 HR 面](https://www.google.com/calendar/event?eid=MzhhZ2Fob3IyMG1nb3A2cG4xOGE1YWNpY3IgYzZrZW9pbGFmdjk5cDE5dmw3ZmFpZHU4bWtAZw) |
+| 时间 | 日程 |
+| -- | -- |
 
 ## 已投递
 - [招商银行](https://github.com/Mayandev/interview-2021/issues/12) -- 2021-07-24
@@ -27,9 +25,9 @@
 ## 面试中
 - [兴业银行](https://github.com/Mayandev/interview-2021/issues/14) -- 2021-07-26
 - [小米](https://github.com/Mayandev/interview-2021/issues/13) -- 2021-08-04
-- [百度](https://github.com/Mayandev/interview-2021/issues/10) -- 2021-07-30
+- [百度](https://github.com/Mayandev/interview-2021/issues/10) -- 2021-08-04
 - [京东](https://github.com/Mayandev/interview-2021/issues/2) -- 2021-08-04
 ## 流程终止
-- [美团](https://github.com/Mayandev/interview-2021/issues/15) -- 2021-08-04
-- [【笔试未通过】拼多多](https://github.com/Mayandev/interview-2021/issues/9) -- 2021-08-02
+- [【放弃面试】美团](https://github.com/Mayandev/interview-2021/issues/15) -- 2021-08-04
+- [【未通过笔试】拼多多](https://github.com/Mayandev/interview-2021/issues/9) -- 2021-08-04
 - [【未通过简历筛选】Shopee](https://github.com/Mayandev/interview-2021/issues/7) -- 2021-07-28
