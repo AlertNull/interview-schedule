@@ -36,7 +36,10 @@ async function updateReadme() {
   let readme = `
 # 我的 2021 秋招 
 
-汇总自己 2021 秋招经历，整理笔试题以及面经，使用 [Issues](${RepoUrl}/issues) 进行进度管理，自动同步 [Google Calendar](https://calendar.google.com/) 的面试日程。
+汇总自己 2021 秋招经历，整理笔试题以及面经，使用 [Issues](${RepoUrl}/issues) 进行进度管理，自动同步 [Google Calendar](https://calendar.google.com/) 的面试日程。[如何运行这个项目？](https://github.com/Mayandev/interview-2021/issues/19)
+
+
+👇 以下内容由 GitHub Action 自动生成。
 
 ## 面试日程
 

@@ -5,8 +5,7 @@ const dayjs = require('dayjs');
 const utc = require('dayjs/plugin/utc');
 dayjs.extend(utc)
 
-const client_id = '515075434394-e4dmddid8tq2u00k9ldqgkohs7ourb8v.apps.googleusercontent.com';
-const [client_secret, access_token, refresh_token] = process.argv.slice(2);
+const [calendar_id, client_id, client_secret, access_token, refresh_token] = process.argv.slice(2);
 const redirect_uri = 'https://mayandev.top';
 const oAuth2Client = new google.auth.OAuth2(client_id, client_secret, redirect_uri);
 
@@ -14,14 +13,13 @@ oAuth2Client.setCredentials({
   access_token,
   refresh_token,
   scope: 'https://www.googleapis.com/auth/calendar.readonly',
-  token_type: 'Bearer',
-  expiry_date: 1627749865065,
+  token_type: 'Bearer'
 });
 
 async function listEvents(auth) {
   const calendar = google.calendar({ version: 'v3', auth });
   const { data } = await calendar.events.list({
-    calendarId: 'c6keoilafv99p19vl7faidu8mk@group.calendar.google.com',
+    calendarId: calendar_id,
     timeMin: new Date().toISOString(),
     maxResults: 10,
     singleEvents: true,
@@ -30,7 +28,7 @@ async function listEvents(auth) {
   const events = data.items || [];
 
 
-  const table = events.map((event, i) => {
+  const table = events.map((event) => {
     const start = dayjs(event.start.dateTime || event.start.date).utcOffset(8).format('MM/DD HH:mm');;
     const { summary, htmlLink } = event;
     return [start, `[${summary}](${htmlLink})`];

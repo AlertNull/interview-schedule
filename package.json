@@ -4,7 +4,7 @@
   "description": "hust job info",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "auth": "cd google_calendar_auth && node ."
   },
   "repository": {
     "type": "git",
