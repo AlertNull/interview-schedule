@@ -18,9 +18,9 @@
 const fs = require('fs');
 const readline = require('readline');
 const { google } = require('googleapis');
-// 如果显示请求被 reset，请添加上下面两行的代理，但是不要 push 这两行代码
-process.env.HTTPS_PROXY = 'http://127.0.0.1:7890 ';
-google.options({ proxy: 'http://127.0.0.1:7890 ' });
+// // 如果显示请求被 reset，请添加上下面两行的代理，但是不要 push 这两行代码
+// process.env.HTTPS_PROXY = 'Your proxy';
+// google.options({ proxy: 'Your proxy' });
 // If modifying these scopes, delete token.json.
 const SCOPES = ['https://www.googleapis.com/auth/calendar.readonly'];
 // The file token.json stores the user's access and refresh tokens, and is
